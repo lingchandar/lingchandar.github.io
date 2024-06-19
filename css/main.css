@@ -1307,7 +1307,7 @@ header{
 	* ------------------------------------------------------------------- 
 	*/
  #intro {
-	 background: url(../image/maxresdefault.jpg) #988080;
+	 background: url(../image/maxresdefault.jpg) #000000;
 	 -webkit-background-size: cover;
 	 -moz-background-size: cover;
 	 background-size: cover;
