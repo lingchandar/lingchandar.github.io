@@ -1079,46 +1079,54 @@
 	*
 	* ------------------------------------------------------------------- 
 	*/
+	
 	header {
-		position: fixed;
-		width: 12%;
-		min-height: 66px;
-		z-index: 600;
-		background-color: rgb(5, 5, 5);
-		border-radius: 0px 12px 12px 0px;
-	}
-	
-	header .row {
-		position: relative;
-		min-height: 66px;
-	}
-	
-	header .top-bar {
-		background: #000000;
-		min-width: 220px;
-		min-height: 66px;
-		position: relative;
-		top: 0;
-		margin-left: 0px;
-	}
-	
-	header .logo {
-		float: left;
-		margin-right: 50px;
-		margin-top: 25px;
-		position: center;
-	}
-	
-	header .logo a {
-		display: block;
-		margin: 0px 0px 0px 0px;
-		margin-bottom: 20px;
-		border: none;
-		color: white;
-		height: 100%;
-		position: relative;
-		font-family: "Gill Sans", sans-serif;
-	}
+	position: fixed;
+	width: 100%;
+	min-height: 66px;
+	z-index: 600;
+}
+header .row {
+	position: relative;
+	min-height: 66px;
+}
+header .top-bar {
+	/* display:; */
+	background: #000000;
+	min-width: 220px;
+	min-height: 66px;
+	position: relative;
+	/* left: 90px; */
+	top: 0;
+	margin-left: 0px;
+}
+header .logo {
+	float: left;
+	/* margin-left: 20px; */
+	margin-right: 50px;
+	margin-top: 25px;
+	position: center;
+}
+header .logo a {
+	display: block;
+	margin:0px 0px 0px 10px;
+	margin-bottom:20px;
+	border: none;
+	text-shadow:2px 2px 2px #cc005f;
+	color: white;
+	/* width: 100%; */
+	height: 100%;
+    position:relative;
+    font-family:'Comic Sans MS';
+	/* background-size: 113px 30px; */
+}
+header{
+	background-color: black;
+	width: 220px;
+	height:66px;
+	display: inline;
+}
+
  /**
 	* menu toggle - (_layout.css)
 	* ------------------------------------------------------------------- 
